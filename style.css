@@ -1,18 +1,84 @@
 body {
-  font-family: 'helvetica', 'arial', sans-serif;
-  font-size: 20px;
+  font-family: "rooney-sans", 'helvetica', 'arial', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
   line-height: 1.52;
   word-spacing: 5px;
+  background: url('images/pendleton.jpg');
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.6);
+
   /*background-color: rgba(0, 0, 0, 0.8);*/
   /*color: rgba(255, 255, 255, 0.9);*/
 }
 
-h1 {
+ html, body {
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  overflow-x:hidden;
+}
+
+ h1 {
   font-size: 2.5em;
 }
 
 a {
+  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.6);
   /*color: rgba(255, 255, 255, 0.8);*/
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 0.5em;
+  display: block;
 }
+
+a:hover {
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.8);
+
+}
+img {
+  padding: 0;
+  width: 50%;
+}
+
+#nav, #cool-trick, #resume {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  /*max-width: 500px;*/
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+}
+#dropdown, #dropdown2 {
+  padding-left: 20px;
+  display: none;
+}
+
+#parallaxdiv {
+  display: none;
+}
+
+#resume {
+  font-size: 0.3em;
+  font-weight: 400;
+}
+
+#bottom1 {
+  width: 100%;
+  height: 100%;
+  background: url('images/pendleton.jpg');
+}
+/*  #bottom1 {
+    z-index:50;
+    top:0;
+    left:0;
+    min-height: 100px;
+    min-width: 200px;
+    width: 100%;
+    height: 100%;
+    background: url('images/pendleton.jpg');
+  }
