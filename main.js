@@ -1,11 +1,11 @@
 $(document).ready(function(){
   $('#proj').click(function(e){
     e.preventDefault();
-    $('#dropdown').toggle(500);
+    $('#dropdown').slideToggle(1000);
   });
   $('#trix').click(function(e){
     e.preventDefault();
-    $('#dropdown2').toggle(500);
+    $('#dropdown2').toggle(00);
   });
   if (!Modernizr.webgl) {
     $('.webgl').css('display', 'none');
