@@ -35,6 +35,11 @@ body {
     text-transform: uppercase;
   }
 
+  a .name  {
+    text-transform: none;
+    font-size: 50px;
+  }
+
   a:hover {
     color: #346F8D;
     /*color: rgba(255, 255, 255, 0.8);*/
@@ -71,7 +76,17 @@ body {
     margin-top: 10px;
   }
 
+  .projects {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 2em;
+  }
 
+  .projects a {
+    display: block;
+  }
 
   .name {
     font-family: "ff-market-web";
@@ -79,4 +94,15 @@ body {
     position: absolute;
     right: 20px;
     top: 0;
+  }
+
+  .arrow img {
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    height: 50px;
+  }
+
+  .arrow img:hover {
+    opacity: 0.5;
   }
