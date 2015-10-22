@@ -4,7 +4,7 @@ body {
   font-weight: 700;
   line-height: 1.52;
   word-spacing: 5px;
-  background: url('images/pendleton.jpg');
+  background: url('images/ducky.jpeg');
   background-size: cover;
   color: rgb(0, 0, 0);
   color: rgba(0, 0, 0, 0.9);
@@ -38,10 +38,11 @@ body {
   a .name  {
     text-transform: none;
     font-size: 50px;
+    color: white;
   }
 
-  a:hover {
-    color: #346F8D;
+  a:hover, a .name:hover {
+    color: #facade;
     /*color: rgba(255, 255, 255, 0.8);*/
 
   }
